@@ -85,22 +85,15 @@ div{
     display: flex;
     justify-content: center;
     gap: 55px;
-
     @media screen(max-width:576px){
     gap:30px;
-}
-
+    }
 }
 div{
     letter-spacing: 1px;
     text-align: center;
     text-transform: uppercase;
-    font-weight:bold
-    
-    
- 
-    
-
+    font-weight:bold;
 }
 *:first-child{
     font-weight: bold;
@@ -117,9 +110,7 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-
-    
+    flex-wrap: wrap;   
 }
 a{
     display: inline-flex;
@@ -133,7 +124,6 @@ a{
     position: relative;
     flex-shrink: 0;
     transition:all .2s ;
-
 }
 .facebook{
     background:linear-gradient(45deg,#1DA1F2,#0e71c8) ;
